@@ -1,0 +1,29 @@
+[
+  {
+    "id": 101,
+    "deviceName": "Ipad",
+    "browser": ["Safari", "Chrome", "Firefox"],
+    "os": "IOS7",
+    "pendingReq": 4
+  },{
+    "id": 102,
+    "deviceName": "Ipad",
+    "browser": ["Safari", "Firefox"],
+    "os": "IOS7",
+    "pendingReq": 24
+  },
+ {
+    "id": 103,
+    "deviceName": "Iphone",
+    "browser": ["Safari"],
+    "os": "IOS7",
+    "pendingReq": 13
+  },
+  {
+    "id": 104,
+    "deviceName": "Tablet",
+    "browser": ["Chrome", "Firefox"],
+    "os": "Android",
+    "pendingReq": 4
+  }
+]

@@ -1,0 +1,111 @@
+body,
+html,
+h1,
+header{
+	margin:0;
+	padding:0
+}
+
+ul, li, ol {
+    margin: 0;
+    padding: 0;
+    outline:0;
+    list-style-type: none;
+    
+}
+ul{
+	padding: 10px;
+}
+
+li{
+	line-height: 0;
+	padding: 10px;
+}
+body,html{
+	font-size:62.5%;
+	min-height: 100%
+}
+
+header {
+	height: 80px;
+	/*background: #BD4729;*/
+	background: rgba(184, 29, 35, 0.6);
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	color:white;
+}
+
+h1{
+	font-size: 5em;
+	font-weight: bold;
+
+}
+
+h2{
+	font-size: 4em;
+	color:#CDCDCD;
+}
+
+p{
+	font-size: 3em;
+}	
+
+input[type="button"]{
+	padding: 8px 20px;
+    border-radius: 3px;
+    border: none;
+   /* background: #DC4B4B;*/
+    color: white;
+    font-size: 2.5em;
+    min-width: 150px;
+    background:#E9121A;
+}
+
+input[type="text"]{
+	font-size: 2.5em;
+	color: #565656;
+	padding: 7px 5px;
+	color:#777373;
+	border-radius: 3px;
+    border: 1px solid #CCC;
+}	
+
+label{
+    font-size: 3em;
+    color: #CDCDCD;
+}
+
+.content{
+	padding:20px;
+}
+
+.hide{
+	display: none;
+}
+
+.error-message{
+    font-size: 3.5em;
+    text-align: center;
+    background: #E52741;
+    padding: 8px 0;
+    color:#F8F1F1;
+}
+
+.button-container{
+	 text-align: center;
+	 margin: 20px 0;	
+}
+
+.note{
+	    font-style: italic;
+	    color:#CDCDCD;
+}
+
+#searchButton{
+	margin-left:50px;
+}
+
+a{
+	font-size: 3.5em;
+}

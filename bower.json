@@ -1,0 +1,8 @@
+{
+  "name": "Node_Json_Crud",
+  "version": "1.0",
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "jquery-ui": "1.10.3"
+  }
+}

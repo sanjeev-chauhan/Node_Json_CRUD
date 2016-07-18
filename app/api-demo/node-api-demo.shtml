@@ -1,0 +1,87 @@
+<!--#include file="common/templates/header.html" -->
+
+<div class="content-wrapper">
+	<header> 
+		<h1>Demos- Node Restful API for CRUD actions</h1>
+	</header> 
+	<section class="content">
+		<h2> Add New Data</h2>
+		<form id="addDataForm">
+			<ul>
+				<li>
+					<div><label>Note: API to add new data in file (File can be new or existing)</label></div>
+					<div><label>API Servie: /api/get/test.json </label></div>	
+				</li>	
+				<li>
+					<label for="userName">Enter User Name</label>
+					<input type="text" id="userName" name="name"></input>
+				</li>
+				<li>
+					<label for="userId">Enter User ID</label>
+					<input type="text" id="id" name="id"></input>
+				</li>
+				<li>
+					<label for="userTitle">Enter User Title</label>
+					<input type="text" id="title" name="title"></input>
+				</li>
+				<li>
+					<input type="button" value="Add User" id="addUser"></input>
+				</li>
+			</ul>
+		</form>
+	</section>
+	
+	<section class="content">
+		<h2> Fetch Data</h2>
+		<form>
+			<ul>
+				<li>
+					<label for="userName">Enter User ID to see details</label>
+					<input type="text" id="getUserDetailsId" name="getUserDetailsId"></input>
+				</li>
+				<li>
+					<input type="button" value="Get User Details" id="getUserDetails"></input>
+				</li>
+			</ul>
+		</form>
+	</section>
+	
+	<section class="content">
+		<h2> Update Data</h2>
+		<form>
+			<ul>
+				<li>
+					<label for="userName">Enter User ID to be updated</label>
+					<input type="text" id="updateId" name="updateId"></input>
+				</li>
+				<li>
+					<label for="userId">Enter updated Title</label>
+					<input type="text" id="updatedTitle" name="updatedTitle"></input>
+				</li>
+				<li>
+					<input type="button" value="Update User Details" id="updateUser"></input>
+				</li>
+			</ul>
+		</form>
+	</section>
+	
+	<section class="content">
+		<h2> Delete Data</h2>
+		<form>
+			<ul>
+				<li>
+					<label for="userName">Enter User ID to be deleted</label>
+					<input type="text" id="deleteId" name="deleteId"></input>
+				</li>
+			
+				<li>
+					<input type="button" value="Delete User Details" id="deletedUser"></input>
+				</li>
+			</ul>
+		</form>
+	</section>
+</div>  
+<script src="../bower_components/jquery/jquery.min.js" ></script>
+<script src ="js/node-api-demo.js"></script>  
+</body>
+</html>

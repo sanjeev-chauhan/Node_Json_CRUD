@@ -1,0 +1,18 @@
+{
+  "name": "Node_Json_Crud",
+  "version": "1.0.0",
+  "devDependencies": {
+    "body-parser": "~1.0.1",
+    "bower": "^1.7.x",
+    "express": "~4.0.0",
+    "extend": "^3.0.0",
+    "promised-io": "^0.3.5",
+    "ssi": "^0.3.0"
+  },
+  "scripts": {
+    "postinstall": "bower cache clean && bower install"
+  },
+  "description": "Node Restful CRUD APIs",
+  "author": "Sanjeev Chauhan",
+  "license": "MIT"
+}
