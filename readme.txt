@@ -24,4 +24,3 @@ Other features
 2. Use promise for async file operations
 3. Support CORS
 
-Create
