@@ -25,7 +25,7 @@ Prerequisite - Node JS and NPM
 
   http://localhost:8000
  
-5. On home page , click on link to see working demo for Restful APIs 
+5. On home page , click on link to see working demo for Restful APIs . The demo pages code resides in app>api-demo folder.
 
 6. Import Node_Restful_API_PostMan.txt in root folder through Postman Chrome extension and see lot of sample for CRUD requests and responses. 
 
